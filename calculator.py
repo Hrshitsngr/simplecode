@@ -5,7 +5,7 @@ def calculator():
     print("2. Subtraction (-)")
     print("3. Multiplication (*)")
     print("4. Division (/)")
-    
+
     operation = input("Enter the number of the operation you want to perform (1/2/3/4): ")
 
     if operation in ('1', '2', '3', '4'):
